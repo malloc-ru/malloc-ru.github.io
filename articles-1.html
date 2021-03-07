@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+<!--Откл. правой кнопки мыши-->
+<script>document.oncontextmenu = cmenu; function cmenu(){ return false; }</script>
 <!------------->
 <!-- Body -->
 <body class="unselectable">
@@ -38,7 +40,8 @@
 	<h3 class="malloc-center">Донат</h3>
 	<h4 class="malloc-bar-item malloc-container">
 		<a class="malloc-bar-block malloc-button malloc-hover-red" id="myDonat-sidebar">На книги</a><br>
-		<a class="malloc-bar-block malloc-button malloc-hover-red" id="myDream-sidebar">На мечту</a>
+		<a class="malloc-bar-block malloc-button malloc-hover-red" id="myDream-sidebar">На мечту</a><br>
+		<a class="malloc-bar-block malloc-button malloc-hover-red" id="myDream-sidebar">Вопрос</a>
 	</h4>
 </nav>
 <!------------->
@@ -88,16 +91,8 @@
 	</div>
 </footer>
 </body> <!-- body -->
-<!------------->
-<!--Script -->
+<!--JScript -->
 <script src="js/scripts.js"></script>
-<!------------->
-<!-- Link -->
-<script src="js/link_articles.js"></script>
-<!------------->
-<!-- Новости сайта-->
+<script src="js/link_main.js"></script>
 <script src="js/news.js"></script>
-<!------------->
-<!--Откл. правой кнопки мыши-->
-<script>document.oncontextmenu = cmenu; function cmenu(){ return false; }</script>
 </html>

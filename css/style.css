@@ -287,4 +287,4 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 /* Адаптивная реклама реклама */
 @media (max-width:992px){.malloc-ad-desktop {display: none}}/* Для стационаров, ноутбуков */
 @media (min-width:992px){.malloc-ad-mobile {display: none}}/* Для мобильных устройств, нетбуков */
-textarea{overflow:auto; max-width:100%;max-height:600px; height: 300px;}
+textarea{overflow:auto; max-width:100%;max-height:600px; height: 280px;}

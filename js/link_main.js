@@ -8,7 +8,10 @@ document.getElementById('myTelegram-1').onclick=function(){window.open('https://
 document.getElementById('myDonat-1').onclick=function(){window.open('https://sobe.ru/na/qa', '_blank');};
 
 /* myDream */
-document.getElementById('myDream-1').onclick=function(){window.open('https://yoomoney.ru/to/410015474057891', '_blank');};
+document.getElementById('myDream-1').onclick=function(){window.open('https://sobe.ru/na/na_me4tu_noutbuk_vmsi', '_blank');};
+
+/* myQuestion  */
+document.getElementById('myQuestion-1').onclick=function(){window.open('https://sobe.ru/na/vopros_q12x', '_blank');};
 
 /* null */
 /* 	document.getElementById('#null').onclick=function(){window.open('null', '_blank');};

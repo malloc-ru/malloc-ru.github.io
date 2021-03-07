@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+<!--Откл. правой кнопки мыши-->
+<script>document.oncontextmenu = cmenu; function cmenu(){ return false; }</script>
 <!------------->
 <!-- Body -->
 <body class="unselectable">
@@ -25,7 +27,7 @@
 </div>
 <!------------->
 <!-- Logo -->
-	<div class="malloc-auto " style="margin-top:40px"><a href="index.html"><img class="malloc-image" src="pictures/image/test1.png" alt="Логотип"/></a></div>
+	<div class="malloc-auto " style="margin-top:40px"><a href="index.html"><img class="malloc-image" src="pictures/image/logo-grey.png" alt="Логотип"/></a></div>
 <!------------->
 <!-- Main content: shift it to the right by 210-275 pixels when the sidebar is visible -->
 <div class="malloc-main malloc-auto" style="margin-left:220px"><!-- main{ -->
@@ -64,6 +66,7 @@
 				<div class="malloc-padding-12 malloc-bar-block malloc-quarter">
 					<h3 id="myDonat-1" class="malloc-bar-item malloc-botton malloc-hover-red malloc-card malloc-padding malloc-center malloc-border malloc-border-red" title="На книги">На книги</h3>
 					<h3 id="myDream-1" class="malloc-bar-item malloc-botton malloc-hover-red malloc-card malloc-padding malloc-center malloc-border malloc-border-red" title="На мечту">На мечту</h3>
+					<h3 id="myQuestion-1" class="malloc-bar-item malloc-botton malloc-hover-red malloc-card malloc-padding malloc-center malloc-border malloc-border-red" title="Задать вопрос">Вопрос</h3>
 				</div>
 			</div>
 		</div><!-- }article -->
@@ -96,16 +99,8 @@
 	</div>
 </footer>
 </body> <!-- }body -->
-<!------------->
-<!--Script -->
+<!--JScript -->
 <script src="js/scripts.js"></script>
-<!------------->
-<!-- Link -->
 <script src="js/link_main.js"></script>
-<!------------->
-<!-- Новости сайта-->
 <script src="js/news.js"></script>
-<!--Откл. правой кнопки мыши-->
-<script>document.oncontextmenu = cmenu; function cmenu(){ return false; }</script>
-<!------------->
 </html>
