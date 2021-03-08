@@ -1,4 +1,4 @@
-# malloc.ru - online 
+# malloc.ru
 
 ## file:
 	index.html     ->   главная
