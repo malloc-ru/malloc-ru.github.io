@@ -1,28 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://malloc.ru/</loc>
-	<lastmod>2021-03-17T11:43:34+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://malloc.ru/index.html</loc>
-	<lastmod>2021-03-17T11:43:34+01:00</lastmod>
+	<lastmod>2021-03-26T12:57:49+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://malloc.ru/articles-1.html</loc>
-	<lastmod>2021-03-17T11:43:36+01:00</lastmod>
+	<lastmod>2021-03-26T12:57:49+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://malloc.ru/about.html</loc>
-	<lastmod>2021-03-17T11:43:37+01:00</lastmod>
+	<lastmod>2021-03-26T12:57:52+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://malloc.ru/content/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BD%D0%B0%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B5%20%D0%BF%D1%80%D0%B8%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8%20chmod/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BD%D0%B0%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B5%20%D0%BF%D1%80%D0%B8%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8%20chmod.html</loc>
-	<lastmod>2021-03-17T11:43:37+01:00</lastmod>
-	<priority>0.6</priority>
+	<loc>https://malloc.ru/index.html</loc>
+	<lastmod>2021-03-26T12:57:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 </urlset>
