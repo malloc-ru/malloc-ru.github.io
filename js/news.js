@@ -1,1 +1,1 @@
-function News(e,n,t){var l=document.querySelector(e),o=0,u=setInterval(function(){o==n.length&&clearInterval(u),l.value=n.substr(0,o),o+=2},t)}window.onload=function(){News("#news",'На сайт добавлен подвал, который отображается на Desktop версии.\nПоявилось новостное окно в мобильной версии.',50)};
+function News(n,e,t){var o=document.querySelector(n),u=0,l=setInterval(function(){u==e.length&&clearInterval(l),o.value=e.substr(0,u),u+=2},t)}window.onload=function(){News("#news","Сегодня, была опубликована статья - Как отправить существующий проект на GitHub.",50)};
