@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://malloc.ru/</loc>
-	<lastmod>2021-03-26T12:57:49+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://malloc.ru/articles-1.html</loc>
-	<lastmod>2021-03-26T12:57:49+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://malloc.ru/about.html</loc>
-	<lastmod>2021-03-26T12:57:52+01:00</lastmod>
+	<lastmod>2021-04-11T16:13:15+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://malloc.ru/index.html</loc>
-	<lastmod>2021-03-26T12:57:52+01:00</lastmod>
+	<lastmod>2021-04-11T16:13:16+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://malloc.ru/articles-1.html</loc>
+	<lastmod>2021-04-11T16:13:18+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://malloc.ru/about.html</loc>
+	<lastmod>2021-04-11T16:13:18+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 </urlset>
