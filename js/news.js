@@ -1,1 +1,1 @@
-document.getElementById("news").innerHTML = "Всех с праздником - 12 июня! С Днем России дамы и господа!";
+document.getElementById("news").innerHTML = "Всем привет!!!<br><br>Ура Ура! Встречаем новую статью - \"Hello world на Си\".<br><br>Так же не забываем подписываться на Youtube канал  - \"MallocRU\"<br><br>Всем отличного настроения! И до следующих новостей!";
