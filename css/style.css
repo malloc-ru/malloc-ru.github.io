@@ -232,3 +232,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 @media (min-width:992px){.malloc-ad-mobile {display: none}}/* Для мобильных устройств, нетбуков */
 /* Для NEWS */
 textarea{font-size:14px; overflow:auto; max-width:75%;min-width:60%; min-height:200px;}
+/* Copyright */
+.unselectable {
+-webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none; /* Chrome/Safari/Opera */
+-khtml-user-select: none; /* Konqueror */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+user-select: none; /* Non-prefixed version, currently not supported by any browser */
+}
