@@ -1,4 +1,11 @@
+# Для всех поисковых ботов
 User-agent: *
-Disallow: articles-1.html
-Disallow: about.html
-Disallow: sitemap.xml
+Allow: /
+
+# Для всех роботов Яндекса
+User-agent: Yandex
+Allow: /
+
+# Для основного индексирующего робота Google
+User-agent: Googlebot
+Allow: /
