@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: articles-1.html
 Disallow: about.html
+Disallow: sitemap.xml
