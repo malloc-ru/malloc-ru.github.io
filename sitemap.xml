@@ -21,52 +21,7 @@
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://malloc.ru/content/1-kak-obnovit'-ubuntu-cherez-terminal.html</loc>
-	<lastmod>2021-08-25T09:19:26+01:00</lastmod>
-	<priority>0.9</priority>
-</url>
-<url>
-	<loc>https://malloc.ru/content/2-kak-otpravit'-sushchestvuyushchiy-proekt-na-github.html</loc>
-	<lastmod>2021-08-25T09:19:26+01:00</lastmod>
-	<priority>0.9</priority>
-</url>
-<url>
-	<loc>https://malloc.ru/content/3-linux-rabota-s-katalogami-i-faylami-chast'-pervaya.html</loc>
-	<lastmod>2021-08-25T09:19:26+01:00</lastmod>
-	<priority>0.9</priority>
-</url>
-<url>
-	<loc>https://malloc.ru/content/4-linux-rabota-s-katalogami-i-faylami-chast'-vtoraya.html</loc>
-	<lastmod>2021-08-25T09:19:26+01:00</lastmod>
-	<priority>0.9</priority>
-</url>
-<url>
-	<loc>https://malloc.ru/content/5-hello-world-na-si.html</loc>
-	<lastmod>2021-08-25T09:19:26+01:00</lastmod>
-	<priority>0.9</priority>
-</url>
-<url>
-	<loc>https://malloc.ru/content/6-converter-valyut-na-si.html</loc>
-	<lastmod>2021-08-25T09:19:26+01:00</lastmod>
-	<priority>0.9</priority>
-</url>
-<url>
-	<loc>https://malloc.ru/content/7-otzhimaniya-v-otkaz-programma.html</loc>
-	<lastmod>2021-08-25T09:19:26+01:00</lastmod>
-	<priority>0.9</priority>
-</url>
-<url>
-	<loc>https://malloc.ru/content/8-tri-zolotykh-uprazhneniya-programma.html</loc>
-	<lastmod>2021-08-25T09:19:26+01:00</lastmod>
-	<priority>0.9</priority>
-</url>
-<url>
-	<loc>https://malloc.ru/content/9-raspredeleniye-maksimal'nogo-kolichestva-povtoreniy-na-podkhody.html</loc>
-	<lastmod>2021-08-25T09:19:26+01:00</lastmod>
-	<priority>0.9</priority>
-</url>
-<url>
-	<loc>https://malloc.ru/content/10-yedinorog.html</loc>
+	<loc>https://malloc.ru/content/</loc>
 	<lastmod>2021-08-25T09:19:26+01:00</lastmod>
 	<priority>0.9</priority>
 </url>
