@@ -1,24 +1,47 @@
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 body{margin:0}
-article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
-audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}
+summary{display:list-item}
+audio,canvas,progress,video{display:inline-block}
+progress{vertical-align:baseline}
 audio:not([controls]){display:none;height:0}[hidden],template{display:none}
-a{background-color:transparent}a:active,a:hover{outline-width:0}
-b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
-small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
-sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
-code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
-button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
+a{background-color:transparent}
+a:active,a:hover{outline-width:0}
+b,strong{font-weight:bolder}
+dfn{font-style:italic}
+mark{background:#ff0;color:#000}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}
+sup{top:-0.5em}
+figure{margin:1em 40px}
+img{border-style:none}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
+hr{box-sizing:content-box;height:0;overflow:visible}
+button,input,select,textarea,optgroup{font:inherit;margin:0}
+optgroup{font-weight:bold}
 fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
 [type=checkbox],[type=radio]{padding:0}
 /* End extract */
 *{font-family: 'Roroto', sans-serif}
-html,body{font-size:14.2222px;line-height:1.5}html{overflow-x:hidden}
-h1{font-size:32px}h2{font-size:26px}h3{font-size:22px}h4{font-size:16.66666px}h5{font-size:14px}h6{font-size:12px}
-.malloc-serif{font-family:serif;}.malloc-sans-serif{font-family:sans-serif;}.malloc-cursive{font-family:cursive;}.malloc-monospace{font-family:monospace;}
-h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}.malloc-wide{letter-spacing:4px}
+html,body{font-size:14.2222px;line-height:1.5}
+html{overflow-x:hidden}
+h1{font-size:32px}
+h2{font-size:26px}
+h3{font-size:22px}
+h4{font-size:16px}
+h5{font-size:14px}
+h6{font-size:12px}
+.malloc-serif{font-family:serif;}
+.malloc-sans-serif{font-family:sans-serif;}
+.malloc-cursive{font-family:cursive;}
+.malloc-monospace{font-family:monospace;}
+h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}
+.malloc-wide{letter-spacing:4px}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
-.malloc-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.malloc-image{max-width:100%;height:auto}
+img{vertical-align:middle}
+a{color:inherit}
 .malloc-table,.malloc-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.malloc-table-all{border:1px solid #ccc}
 .malloc-table td,.malloc-table th,.malloc-table-all td,.malloc-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
 .malloc-table th:first-child,.malloc-table td:first-child,.malloc-table-all th:first-child,.malloc-table-all td:first-child{padding-left:16px}
