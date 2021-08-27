@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=ru>
 <title>Как отправить существующий проект на GitHub | Malloc.RU</title>
-<meta content="charset=utf-8" />
+<meta charset=utf-8 />
 <meta name=description content="Создаем локальный репозиторий git и отправляем его на удаленный репозиторий GitHub. В статье присутствует пошаговая инструкция и есть видео, в котором показано все на практике. Автор показал как использует исполняемый файл .sh для выполнения push на GitHub. В статье используется OS Ubuntu. Подробнее..."/>
 <meta name=viewport content="width=device-width, initial-scale=1"/>
 <link rel=stylesheet href=../css/style.css>
@@ -11,11 +11,11 @@
 <script>document.oncontextmenu=cmenu;function cmenu(){return false};</script>
 <body class=unselectable>
 <noscript><img src="https://top-fwz1.mail.ru/counter?id=3211268;js=na" style=border:0;position:absolute;left:-9999px alt=Top.Mail.Ru></noscript>
-<div class="malloc-main malloc-auto" style=margin-left:150px>
-<div class="malloc-row malloc-padding-64">
+<div class=malloc-main style=margin-left:100px>
+<div class="malloc-row malloc-padding-32">
 <div class="malloc-threequarter malloc-padding">
-<h1 class="malloc-center malloc-theme-main malloc-card malloc-auto" style=border-radius:5px>Как отправить существующий проект на GitHub</h1>
-<p style=font-size:14px class=malloc-padding-small>
+<h1 class="malloc-center malloc-theme malloc-card" style=border-radius:5px>Как отправить существующий проект на GitHub</h1>
+<p>
 Создаем локальный репозиторий git и отправляем его на удаленный репозиторий GitHub.<br>
 В статье присутствует пошаговая инструкция и есть видео, в котором показано все на практике.<br>
 Автор показал как использует исполняемый файл .sh для выполнения push на GitHub.<br>
@@ -23,8 +23,8 @@
 Все действия протестированы и проверены на дистрибутиве Ubuntu. <br>
 Приятного чтения и просмотра!<br>
 </p>
-<div class=malloc-auto style=margin-top:40px;width:80.99999%;height:80.99999%><img class=malloc-image src=pictures/2.png alt=Screenshot-Терминал title=Screenshot-Терминал style=border-radius:5px></div>
-<div class="malloc-padding-small malloc-padding-16">
+<div class=malloc-auto style=margin-top:40px;width:100%;height:100%><img class=malloc-image src=pictures/2.png alt=Screenshot-Терминал title=Screenshot-Терминал style=border-radius:5px></div>
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Установим Git</h2>
 <ul class=malloc-ul>
 <li>
@@ -42,11 +42,10 @@
 </p>
 </li>
 </ul>
-</div>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Создаем локальный и удаленный репозитории</h2>
 <ul class=malloc-ul>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 0</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 0</li>
 <li>
 Открываем терминал:<br>
 "Ctrl+Alt+T" или "ПКМ, открыть Терминал"(англ. - Open in Terminal).<br>
@@ -75,7 +74,7 @@
 "echo" - в данном случае используется для создания и записи строки в файл README.md
 </p>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 1</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 1</li>
 <li>
 Теперь создадим локальный репозиторий .git:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">git init</code>
@@ -88,11 +87,11 @@
 Метка о внесенных изменениях:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">git commit -m "first commit"</code>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 2</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 2</li>
 <li>
 Заходим в свой аккаунт на <a id=GitHub class=malloc-hover-black style=text-decoration:underline>GitHub</a> и создаем новый репозиторий: Test
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 3</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 3</li>
 <li>
 Возвращаемся в терминал.<br>
 Добавляем адрес удаленного репозитория:<br>
@@ -121,9 +120,8 @@ USER - ваше имя аккаунта на GitHub: <b>../code-malloc/Test.git<
 <div class="malloc-ad-mobile malloc-center">
 <object style=width:250px;height:180px data=https://www.youtube.com/embed/1DZKthNmILw></object>
 </div>
-</div>
 <hr>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>"push" одной командой</h2>
 Мое решение нельзя назвать универсальным, но оно соответствует моим запросам.<br>
 Обычно, когда заливаю код на GitHub, использую три команды:<br>
@@ -133,7 +131,7 @@ USER - ваше имя аккаунта на GitHub: <b>../code-malloc/Test.git<
 Теперь сделаем так, что бы они выпольнялись за одну команду.
 <hr>
 <ul class=malloc-ul>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 0</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 0</li>
 <li>
 Для начала откроем терминал:<br>
 "Ctrl+Alt+T" или "ПКМ, открыть Терминал"(англ. - Open in Terminal).<br>
@@ -147,7 +145,7 @@ USER - ваше имя аккаунта на GitHub: <b>../code-malloc/Test.git<
 Теперь, зайдем в папку "Push":<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">cd Push</code><br>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 1</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 1</li>
 <li>
 Создадим и запишем в файл "git-push.sh" команды, которые нужны для push:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">echo 'git add * && git commit -m " - " && git push -u origin master' > git-push.sh</code><br>
@@ -163,7 +161,7 @@ USER - ваше имя аккаунта на GitHub: <b>../code-malloc/Test.git<
 "chmod +x" - позволяет задать параметры запуска файла на исполнение.<br>
 </p>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 2</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 2</li>
 <li>
 Выходим из директории "Push" и переходим в директорию "Repo":<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">cd ../Repo</code><br>
@@ -172,13 +170,13 @@ USER - ваше имя аккаунта на GitHub: <b>../code-malloc/Test.git<
 Созданим любой файл и запишем в него например "Hello, World!":<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">echo 'Hello, World!' > File</code><br>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 3</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 3</li>
 <li>
 Теперь загрузим файл на GitHub.<br>
 Для этого нужно зайти в папку "Push" и запустить скрипт "git-push.sh":<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">./../Push/git-push.sh</code><br>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 4</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 4</li>
 <li>
 Возвращаемся в браузер и обновляем страничку(перезагрузить F5).<br>
 Если появился файл "File" с надписью "Hello, World!", то все было сделано верно.<br>
@@ -192,9 +190,8 @@ USER - ваше имя аккаунта на GitHub: <b>../code-malloc/Test.git<
 <div class="malloc-ad-mobile malloc-center">
 <object style=width:250px;height:180px data=https://www.youtube.com/embed/T-_j8PIMEYA></object>
 </div>
-</div>
 <hr>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Заключение</h2>
 <ul class=malloc-ul>
 <li>
@@ -205,7 +202,6 @@ USER - ваше имя аккаунта на GitHub: <b>../code-malloc/Test.git<
 Надеюсь, статья была полезной и у вас получилось найти ответы на свои вопросы.
 </li>
 </ul>
-</div>
 </div>
 <div class="malloc-quarter malloc-text-gray malloc-padding-16 malloc-card" title=Новости style=margin-top:90px>
 <div class="malloc-container malloc-text-grey" style=border-radius:5px>
@@ -292,9 +288,6 @@ USER - ваше имя аккаунта на GitHub: <b>../code-malloc/Test.git<
 </div>
 </li>
 </ul>
-</div>
-<div class="malloc-container malloc-theme-l5 malloc-card malloc-ad-desktop" style=margin-left:270px;border-radius:5px>
-<div class=malloc-center style=font-size:12px title="Все права защищены">&copy; malloc.ru, 2021</div>
 </div>
 <div class="malloc-container malloc-theme-l2 malloc-card-4 malloc-ad-mobile" style=border-radius:5px>
 <div class=malloc-center style=font-size:12px title="Все права защищены">&copy; malloc.ru, 2021</div>

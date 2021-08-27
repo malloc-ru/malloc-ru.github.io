@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=ru>
 <title>Linux - работа с каталогами и файлами. Часть Вторая | Malloc.RU</title>
-<meta content="charset=utf-8" />
+<meta charset=utf-8 />
 <meta name=description content="Поговорим и посмотрим как работают такие вещи как автодописывание имен, история команд, список задач, права доступа к файлам и каталогам, документация. Статья является неразрывно связанной с первой частью, но при этом так же является и самостоятельной частью. Подробнее..."/>
 <meta name=viewport content="width=device-width, initial-scale=1"/>
 <link rel=stylesheet href=../css/style.css>
@@ -11,11 +11,11 @@
 <script>document.oncontextmenu=cmenu;function cmenu(){return false};</script>
 <body class=unselectable>
 <noscript><img src="https://top-fwz1.mail.ru/counter?id=3211268;js=na" style=border:0;position:absolute;left:-9999px alt=Top.Mail.Ru></noscript>
-<div class="malloc-main malloc-auto" style=margin-left:150px>
-<div class="malloc-row malloc-padding-64">
-<div class="malloc-threequarter malloc-padding">
-<h1 class="malloc-center malloc-theme-main malloc-card malloc-auto" style=border-radius:5px>Linux - работа с каталогами и файлами. Часть Вторая</h1>
-<p style=font-size:14px class=malloc-padding-small>
+<div class=malloc-main style=margin-left:100px>
+<div class="malloc-row malloc-padding-32">
+<div class=malloc-threequarter>
+<h1 class="malloc-center malloc-theme malloc-card" style=border-radius:5px>Linux - работа с каталогами и файлами. Часть Вторая</h1>
+<p>
 В статье описаны следующие темы: автодописывание имен, история команд, список задач, права доступа к файлам, документация.<br>
 Темы всем извесны, но все же должен о них рассказать.<br>
 Данная статья вытекает из предыдущей статьи, поэтому рекомендую ознакомиться и с <a id=article-3 class=malloc-hover-blue style=border-radius:5px;text-decoration:underline>"Первой частью"</a>. <br><br>
@@ -23,8 +23,8 @@
 Для более полного восприятия, рекомендую просмотреть видео находящиеся в статье.<br>
 Приятного чтения и просмотра!<br>
 </p>
-<div class=malloc-auto style=margin-top:40px;width:80.99999%;height:80.99999%><img class=malloc-image src=pictures/4.png alt=Screenshot-Терминал title=Screenshot-Терминал style=border-radius:5px></div>
-<div class="malloc-padding-small malloc-padding-16">
+<div class=malloc-auto style=margin-top:40px;width:100%;height:100%><img class=malloc-image src=pictures/4.png alt=Screenshot-Терминал title=Screenshot-Терминал style=border-radius:5px></div>
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Автодописывание имен файлов</h2>
 <ul class=malloc-ul>
 <li>
@@ -34,7 +34,6 @@
 В целом эта возможность способна сэкономить нам больше половины нажатий на клавиши.
 </li>
 </ul>
-</div>
 <div class="malloc-ad-desktop malloc-center">
 <object style=width:560px;height:315px data=https://www.youtube.com/embed/h_URggViths></object>
 </div>
@@ -42,7 +41,7 @@
 <object style=width:250px;height:180px data=https://www.youtube.com/embed/h_URggViths></object>
 </div>
 <hr>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>История команд</h2>
 <ul class=malloc-ul>
 <li>
@@ -59,14 +58,13 @@
 "less" - испльзуется для просмотра
 </p>
 </li>
-<li>
+<li style=margin-top:40px>
 Каждая введенная нами команда стоит под номером, поэтому мы можем повторить любую команду из старых команд, зная её номер, используя восклицательный знак:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">!234</code><br><br>
 Два восклицательных знака обозначают последнюю введенную команду:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">!!</code>
 </li>
 </ul>
-</div>
 <div class="malloc-ad-desktop malloc-center">
 <object style=width:560px;height:315px data=https://www.youtube.com/embed/b7SWzkufEio></object>
 </div>
@@ -74,7 +72,7 @@
 <object style=width:250px;height:180px data=https://www.youtube.com/embed/b7SWzkufEio></object>
 </div>
 <hr>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Список задач</h2>
 <ul class=malloc-ul>
 <li>
@@ -85,7 +83,7 @@
 "ps axu" - выдаст список всех существующих процессов и их владельцев
 </p>
 </li>
-<li>
+<li style=margin-top:40px>
 Бывает, что процесс завис. И обычными способами закрыть его не получается.<br>
 На помощь придет команда "kill -9", после которой, нужно вписать номер процесса.<br><br>
 Для поиска номера зависшей программы введем команду "pidof" и далее название зависшей программы:<br>
@@ -100,7 +98,6 @@
 </p>
 </li>
 </ul>
-</div>
 <div class="malloc-ad-desktop malloc-center">
 <object style=width:560px;height:315px data=https://www.youtube.com/embed/Q7q-WS60j9M>
 </object>
@@ -110,7 +107,7 @@
 </object>
 </div>
 <hr>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Права доступа к файлам</h2>
 <ul class=malloc-ul>
 <li>
@@ -128,7 +125,7 @@
 "x" - исполнение
 </p>
 </li>
-<li>
+<li style=margin-top:40px>
 Так как группа из трех бит соответствует ровно одной цифре восмиричной системы счисления, общепринятой является практика записи слова, прав доступа к файлу/каталогу, в виде восьмиричного числа, обычно трехзначного (644).<br><br>
 Обычно первая цифра, означает права для владельца - user.<br>
 Вторая, права для группы - group.<br>
@@ -144,7 +141,7 @@
 "7" - все разрешено
 </p>
 </li>
-<li>
+<li style=margin-top:40px>
 Изменим права доступа при помощи "chmod":<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">chmod -700 file</code><br>
 Теперь этот файл может читать, записывать, испольнять только владелец файла.<br><br>
@@ -158,7 +155,7 @@
 "-" - Забрать права у всех. Например на исполнение "-x"
 </p>
 </li>
-<li>
+<li style=margin-top:40px>
 Для каталогов интерпритация битов прав доступа несколько отличается:<br>
 - права на чтение каталога дают возможность просмотреть его содержимое.<br>
 - права на запись позволяют создавать и уничтожать в нем файлы.<br>
@@ -167,7 +164,7 @@
 Если есть права на исполнение, но нету прав на чтение, мы можем открыть файл из этого каталога только в том случае, если точно знаем имя файла.<br>
 Узнать имя файла не можем, так как нету возможности просмотреть каталог.
 </li>
-<li>
+<li style=margin-top:40px>
 Эта команда устанавливает в нашем домашнем каталоге и всех её подкаталогах для всех файлов права для владельца на чтение и запись:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">chmod -R u+rwX,go=rX ~</code><br><br>
 Для каталогов, а также файлов, для которых исполнение разрешено хоть кому-то, владельцу назначается также права на исполнение.<br>
@@ -178,7 +175,6 @@
 </p>
 </li>
 </ul>
-</div>
 <div class="malloc-ad-desktop malloc-center">
 <object style=width:560px;height:315px data=https://www.youtube.com/embed/gkOWeY0tV0A></object>
 </div>
@@ -186,7 +182,7 @@
 <object style=width:250px;height:180px data=https://www.youtube.com/embed/gkOWeY0tV0A></object>
 </div>
 <hr>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Документация</h2>
 <ul class=malloc-ul>
 <li class=malloc-text-blue style=font-size:15px;margin-top:40px>man</li>
@@ -204,7 +200,7 @@
 "more" - это фильтр для постраничного просмотра текста по одному экрану за раз
 </p>
 </li>
-<li>
+<li style=margin-top:40px>
 Иногда мы хотим узнать о конкретной функции, а "man" находит совсем не то, что искали.<br>
 Дело в том, что есть несколько разделов и поиск проиходит по всем этим разделам:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">man time.1</code><br>
@@ -245,7 +241,6 @@
 <code class="malloc-text-teal malloc-border malloc-bar-item">help --help</code>
 </li>
 </ul>
-</div>
 <div class="malloc-ad-desktop malloc-center">
 <object style=width:560px;height:315px data="https://www.youtube.com/embed/iay_omsX8uM "></object>
 </div>
@@ -253,7 +248,7 @@
 <object style=width:250px;height:180px data="https://www.youtube.com/embed/iay_omsX8uM "></object>
 </div>
 <hr>
-<div class=malloc-padding-small>
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Заключение</h2>
 <ul class=malloc-ul>
 <li>
@@ -262,7 +257,6 @@
 Надеюсь, статья была полезной и у вас получилось найти ответы на свои вопросы.
 </li>
 </ul>
-</div>
 </div>
 <div class="malloc-quarter malloc-text-gray malloc-padding-16 malloc-card" title=Новости style=margin-top:90px>
 <div class="malloc-container malloc-text-grey" style=border-radius:5px>
@@ -284,7 +278,7 @@
 <div class=malloc-threequarter>
 <div class="malloc-container malloc-theme-l4 malloc-padding-large" style=font-size:12px;margin-left:270px;border-radius:5px>
 <ul class="malloc-ul malloc-col">
-<li>
+<li style=margin-top:40px>
 Донат:
 <div class=malloc-padding-12>
 <div id=Donat-footer-d class=malloc-hover-red style=border-radius:5px>На книги</div>
@@ -294,7 +288,7 @@
 </li>
 </ul>
 <ul class="malloc-ul malloc-col">
-<li>
+<li style=margin-top:40px>
 Соцсети:
 <div class=malloc-padding-12>
 <div id=Telegram-footer-d class=malloc-hover-green style=border-radius:5px>Телеграм</div>
@@ -303,7 +297,7 @@
 </li>
 </ul>
 <ul class="malloc-ul malloc-col">
-<li>
+<li style=margin-top:40px>
 Дополнительно:
 <div class=malloc-padding-12>
 <div id=Topmail-footer-d class=malloc-hover-white style=border-radius:5px>Рейтинг сайта</div>
@@ -322,7 +316,7 @@
 <div class=malloc-threequarter>
 <div class="malloc-container malloc-theme-l4 malloc-padding-large" style=font-size:12px;margin-left:1px;border-radius:5px>
 <ul class="malloc-ul malloc-col">
-<li>
+<li style=margin-top:40px>
 Донат:
 <div class=malloc-padding-12>
 <div id=Donat-footer-m class=malloc-hover-red style=border-radius:5px>На книги</div>
@@ -332,7 +326,7 @@
 </li>
 </ul>
 <ul class="malloc-ul malloc-col">
-<li>
+<li style=margin-top:40px>
 Соцсети:
 <div class=malloc-padding-12>
 <div id=Telegram-footer-m class=malloc-hover-green style=border-radius:5px>Телеграм</div>
@@ -341,7 +335,7 @@
 </li>
 </ul>
 <ul class="malloc-ul malloc-col">
-<li>
+<li style=margin-top:40px>
 Дополнительно:
 <div class=malloc-padding-12>
 <div id=Topmail-footer-m class=malloc-hover-white style=border-radius:5px>Рейтинг сайта</div>
@@ -349,9 +343,6 @@
 </div>
 </li>
 </ul>
-</div>
-<div class="malloc-container malloc-theme-l5 malloc-card malloc-ad-desktop" style=margin-left:270px;border-radius:5px>
-<div class=malloc-center style=font-size:12px title="Все права защищены">&copy; malloc.ru, 2021</div>
 </div>
 <div class="malloc-container malloc-theme-l2 malloc-card-4 malloc-ad-mobile" style=border-radius:5px>
 <div class=malloc-center style=font-size:12px title="Все права защищены">&copy; malloc.ru, 2021</div>

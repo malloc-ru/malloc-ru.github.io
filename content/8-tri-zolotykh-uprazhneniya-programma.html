@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=ru>
 <title>Три золотых упражнения. Программа | Malloc.RU</title>
-<meta content="charset=utf-8" />
+<meta charset=utf-8 />
 <meta name=description content="Из этой статьи вы узнаете как создать программу, которая расчитывает количество приседаний, подтягиваний, отжиманий! Пошаговая инструкция поможет сосредоточиться на деталях, а видео инструкция поможет увидеть всю картину целиком. Команды, предоставленные в статье, протестированы на Ubuntu. Подробнее..."/>
 <meta name=viewport content="width=device-width, initial-scale=1"/>
 <link rel=stylesheet href=../css/style.css>
@@ -11,19 +11,19 @@
 <script>document.oncontextmenu=cmenu;function cmenu(){return false};</script>
 <body class=unselectable>
 <noscript><img src="https://top-fwz1.mail.ru/counter?id=3211268;js=na" style=border:0;position:absolute;left:-9999px alt=Top.Mail.Ru></noscript>
-<div class="malloc-main malloc-auto" style=margin-left:150px>
-<div class="malloc-row malloc-padding-64">
+<div class=malloc-main style=margin-left:100px>
+<div class="malloc-row malloc-padding-32">
 <div class="malloc-threequarter malloc-padding">
-<h1 class="malloc-center malloc-theme-main malloc-card malloc-auto" style=border-radius:5px>Три золотых упражнения. Программа</h1>
-<p style=font-size:14px class=malloc-padding-small>
+<h1 class="malloc-center malloc-theme malloc-card" style=border-radius:5px>Три золотых упражнения. Программа</h1>
+<p>
 Из этой статьи вы узнаете как создать программу подсчитывающая количество приседаний, подтягиваний, отжиманий исходя из вашего возраста, веса, роста.<br><br>
 В качестве языков программирования я выбрал - <b>С</b> и <b>С++</b>.<br>
 Все действия протестированы и проверены на дистрибутиве Ubuntu.<br>
 В статье есть видео, в которых всё показано в живую.<br><br>
 Приятного чтения и просмотра!
 </p>
-<div class=malloc-auto style=margin-top:40px;width:80.99999%;height:80.99999%><img class=malloc-image src=pictures/8.png alt=Screenshot-Терминал title=Screenshot-Терминал style=border-radius:5px></div>
-<div class="malloc-padding-small malloc-padding-16">
+<div class=malloc-auto style=margin-top:40px;width:100%;height:100%><img class=malloc-image src=pictures/8.png alt=Screenshot-Терминал title=Screenshot-Терминал style=border-radius:5px></div>
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Формулы</h2>
 <ul class=malloc-ul>
 <li>
@@ -32,16 +32,15 @@
 3. Приседания<b style=margin-left:30px>= 120 - "возраст"</b>
 </li>
 </ul>
-</div>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Подготовка для Си</h2>
 <ul class=malloc-ul>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 1</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 1</li>
 <li>
 Открываем терминал:<br>
 "Ctrl+Alt+T" или "ПКМ, открыть Терминал" (по англ. - Open in Terminal).
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 2</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 2</li>
 <li>
 Создадим отдельный каталог (папку):<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">mkdir c-prog</code><br>
@@ -53,7 +52,7 @@
 "cd" - используется для перемещения по каталогам
 </p>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 3</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 3</li>
 <li>
 В этой папке создадим файл "main.c":<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">touch main.c</code><br>
@@ -64,7 +63,7 @@
 "ls" - просмотр текущего каталога
 </p>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 4</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 4</li>
 <li>
 Теперь нужно открыть файл в любой текстовом редакторе.<br>
 К примеру открою наш файл "main.c" в текстовом редакторе - gedit.
@@ -76,11 +75,10 @@
 Откроется "текстовой редактор - gedit" и закроется одна вкладка в терминале.
 </li>
 </ul>
-</div>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Пишем код на Си</h2>
 <ul class=malloc-ul>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Функция отжимания</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Функция отжимания</li>
 <li>
 Подключаем стандартную библиотеку ввода-вывода:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">#include &lt;stdio.h&gt;</code><br>
@@ -104,7 +102,7 @@
 Закрывающая скобка функции otzhimaniya():<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">}</code>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Функция подтягивания</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Функция подтягивания</li>
 <li>
 Отступаем вниз пару строк и пишем функцию подтягивания:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">int podtyagivaniya()</code><br>
@@ -115,7 +113,7 @@
 Закрывающая скобка функции podtyagivaniya():<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">}</code>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Функция приседания</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Функция приседания</li>
 <li>
 Отступаем вниз пару строк и пишем функцию приседания:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">int prisedaniya()</code><br>
@@ -133,7 +131,7 @@
 Закрывающая скобка функции prisedaniya():<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">}</code>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Функция main</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Функция main</li>
 <li>
 Отступаем вниз пару строк и пишем функцию main:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">int main()</code><br>
@@ -170,8 +168,7 @@
 <code class="malloc-text-teal malloc-border malloc-bar-item">}</code>
 </li>
 </ul>
-</div>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Компиляция и запуск</h2>
 <ul class=malloc-ul>
 <li>
@@ -180,7 +177,7 @@
 <code class="malloc-text-teal malloc-border malloc-bar-item">sudo apt install gcc</code><br>
 Если он у вас уже есть, то хорошо, идем дальше.
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 1</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 1</li>
 <li>
 Компиляция:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">gcc main.c</code><br>
@@ -188,7 +185,7 @@
 <code class="malloc-text-teal malloc-border malloc-bar-item">ls</code><br>
 В каталоге дожны лежать "a.out" и "main.c".
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 2</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 2</li>
 <li>
 Теперь посмотрим на результат:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">./a.out</code><br>
@@ -215,7 +212,6 @@
 </p>
 </li>
 </ul>
-</div>
 <hr>
 <div class="malloc-ad-desktop malloc-center">
 <object style=width:560px;height:315px data=https://www.youtube.com/embed/VEPzGSshbkw></object>
@@ -224,15 +220,15 @@
 <object style=width:250px;height:180px data=https://www.youtube.com/embed/VEPzGSshbkw></object>
 </div>
 <hr>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Подготовка для Си++</h2>
 <ul class=malloc-ul>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 1</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 1</li>
 <li>
 Открываем терминал:<br>
 "Ctrl+Alt+T" или "ПКМ, открыть Терминал" (по англ. - Open in Terminal).
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 2</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 2</li>
 <li>
 Создадим отдельный каталог (папку):<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">mkdir cpp-prog</code><br>
@@ -244,7 +240,7 @@
 "cd" - используется для перемещения по каталогам
 </p>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 3</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 3</li>
 <li>
 В этой папке создадим файл "main.cpp":<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">touch main.cpp</code><br>
@@ -255,7 +251,7 @@
 "ls" - просмотр текущего каталога
 </p>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 4</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 4</li>
 <li>
 Теперь нужно открыть файл в любой текстовом редакторе.<br>
 К примеру открою наш файл "main.cpp" в текстовом редакторе - gedit.
@@ -267,11 +263,10 @@
 Откроется "текстовой редактор - gedit" и закроется одна вкладка в терминале.
 </li>
 </ul>
-</div>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Пишем код на С++</h2>
 <ul class=malloc-ul>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Функция отжимания</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Функция отжимания</li>
 <li>
 Подключаем стандартную библиотеку ввода-вывода:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">#include &lt;iostream&gt;</code><br>
@@ -286,7 +281,7 @@
 Закрывающая скобка:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">}</code>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Функция подтягивания</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Функция подтягивания</li>
 <li>
 Отступаем вниз пару строк и пишем функцию подтягивания с тремя переменными - рост, вес, возраст:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">int podtyagivaniya (int rost, int ves, int vozrast)</code><br>
@@ -297,7 +292,7 @@
 Закрывающая скобка:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">}</code>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Функция приседания</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Функция приседания</li>
 <li>
 Отступаем вниз пару строк и пишем функцию приседания с одной переменной - возраст:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">int prisedaniya(int vozrast)</code><br>
@@ -308,7 +303,7 @@
 Закрывающая скобка:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">}</code>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Функция main</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Функция main</li>
 <li>
 Отступаем вниз пару строк и пишем функцию main:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">int main()</code><br>
@@ -341,8 +336,7 @@
 <code class="malloc-text-teal malloc-border malloc-bar-item">}</code>
 </li>
 </ul>
-</div>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Компиляция и запуск</h2>
 <ul class=malloc-ul>
 <li>
@@ -351,7 +345,7 @@
 <code class="malloc-text-teal malloc-border malloc-bar-item">sudo apt install g++</code><br/>
 Если он у вас уже есть, то хорошо, идем дальше.
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 1</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 1</li>
 <li>
 Компиляция:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">g++ main.cpp</code><br>
@@ -359,7 +353,7 @@
 <code class="malloc-text-teal malloc-border malloc-bar-item">ls</code><br>
 В каталоге дожны лежать "a.out" и "main.cpp".
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 2</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 2</li>
 <li>
 Теперь посмотрим на результат:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">./a.out</code><br>
@@ -383,7 +377,6 @@
 </p>
 </li>
 </ul>
-</div>
 <hr>
 <div class="malloc-ad-desktop malloc-center">
 <object style=width:560px;height:315px data=https://www.youtube.com/embed/9RvFKHWlKz4> </object>
@@ -392,7 +385,7 @@
 <object style=width:250px;height:180px data=https://www.youtube.com/embed/9RvFKHWlKz4></object>
 </div>
 <hr>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:100px></div>
 <h2 class=malloc-text-teal>Заключение</h2>
 <ul class=malloc-ul>
 <li>
@@ -404,7 +397,6 @@
 Надеюсь, статья была полезной и у вас получилось найти ответы на свои вопросы.
 </li>
 </ul>
-</div>
 </div>
 <div class="malloc-quarter malloc-text-gray malloc-padding-16 malloc-card" title=Новости style=margin-top:90px>
 <div class="malloc-container malloc-text-grey" style=border-radius:5px>
@@ -491,9 +483,6 @@
 </div>
 </li>
 </ul>
-</div>
-<div class="malloc-container malloc-theme-l5 malloc-card malloc-ad-desktop" style=margin-left:270px;border-radius:5px>
-<div class=malloc-center style=font-size:12px title="Все права защищены">&copy; malloc.ru, 2021</div>
 </div>
 <div class="malloc-container malloc-theme-l2 malloc-card-4 malloc-ad-mobile" style=border-radius:5px>
 <div class=malloc-center style=font-size:12px title="Все права защищены">&copy; malloc.ru, 2021</div>

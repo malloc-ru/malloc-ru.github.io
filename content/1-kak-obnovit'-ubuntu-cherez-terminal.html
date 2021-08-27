@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=ru>
 <title>Как обновить Ubuntu через терминал | Malloc.RU</title>
-<meta content="charset=utf-8" />
+<meta charset=utf-8 />
 <meta name=description content="Обновление Linux на примере дистрибутива Ubuntu. Обновление операционной системы показано через терминал. Используются команды update, а потом upgrade. В итоге делаем исполняемый файл, в котором будут храниться все наши команды. Подробнее..."/>
 <meta name=viewport content="width=device-width, initial-scale=1"/>
 <link rel=stylesheet href=../css/style.css>
@@ -11,27 +11,27 @@
 <script>document.oncontextmenu=cmenu;function cmenu(){return false};</script>
 <body class=unselectable>
 <noscript><img src="https://top-fwz1.mail.ru/counter?id=3211268;js=na" style=border:0;position:absolute;left:-9999px alt=Top.Mail.Ru></noscript>
-<div class="malloc-main malloc-auto" style=margin-left:150px>
-<div class="malloc-row malloc-padding-64">
+<div class=malloc-main style=margin-left:100px>
+<div class="malloc-row malloc-padding-32">
 <div class="malloc-threequarter malloc-padding">
-<h1 class="malloc-center malloc-theme-main malloc-card malloc-auto" style=border-radius:5px>Как обновить Ubuntu через терминал</h1>
-<p style=font-size:14px class=malloc-padding-small>
+<h1 class="malloc-center malloc-theme malloc-card" style=border-radius:5px>Как обновить Ubuntu через терминал</h1>
+<p>
 Обновление операционной системы показано через терминал. Используются команды update, а потом upgrade. В итоге делаем исполняемый файл, в котором будут храниться все наши команды.<br><br>
 Все действия протестированы и проверены на дистрибутиве Ubuntu. <br>
 В статье есть видео, в которых всё показано в живую.<br>
 Приятного чтения и просмотра!<br>
 </p>
-<div class=malloc-auto style=margin-top:40px;width:80.99999%;height:80.99999%><img class=malloc-image src=pictures/1.png alt=Screenshot-Терминал title=Screenshot-Терминал style=border-radius:5px></div>
-<div class="malloc-padding-small malloc-padding-16">
+<div class=malloc-auto style=margin-top:40px;width:100%;height:100%><img class=malloc-image src=pictures/1.png alt=Screenshot-Терминал title=Screenshot-Терминал style=border-radius:5px></div>
+<div style=margin-top:75px></div>
 <h2 class=malloc-text-teal>Обновляемся: update, upgrade</h2>
 <ul class=malloc-ul>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 0</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 0</li>
 <li>
 Для начала откроем терминал:<br>
 "Ctrl+Alt+T" или "ПКМ, открыть Терминал" (англ. - Open in Terminal).<br>
 Теперь в открывшемся окне Терминала, записываем команды для обновления операционной системы. Они подробно описаны ниже.
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 1</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 1</li>
 <li>
 В терминале пишем это:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">sudo apt update</code><br>
@@ -42,7 +42,7 @@
 "apt update" - обновить список доступных пакетов .
 </p>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 2</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 2</li>
 <li>
 Загружаем обновления на компьютер:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">sudo apt upgrade -y</code><br>
@@ -54,20 +54,18 @@
 </li>
 </ul>
 В конце статьи есть <a href=#Видео>видео</a>. В нем показываю все на практике.
-</div>
-<div class=malloc-padding-small>
-<div class=malloc-padding-16></div>
+<div style=margin-top:75px></div>
 <h2 class=malloc-text-teal>Что дальше</h2>
 А теперь немного упростим себе задачу. Сделаем так, что бы все команды, которые были описаны выше, выполнялись за одну команду. Этот способ сэкономит нам немного времени и немного расширит наш кругозор.<br>
 Мы создадим исполняемый файл "sysup.sh".&#42;
 <ul class=malloc-ul>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 0</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 0</li>
 <li>
 Для начала откроем терминал:<br>
 "Ctrl+Alt+T" или "ПКМ, открыть Терминал"(англ. - Open in Terminal).<br>
 Теперь в открывшемся окне Терминала, записываем команды для обновления операционной системы. Они подробно описаны ниже.
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 1</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 1</li>
 <li>
 Создадим директорию (папку) - system_update:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">mkdir system_update</code><br>
@@ -76,7 +74,7 @@
 "mkdir" - это команда для создания новых директорий (каталогов).
 </p>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 2</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 2</li>
 <li>
 Теперь, зайдем в папку и создадим там файл:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">cd system_update && touch sysup.sh</code><br>
@@ -86,7 +84,7 @@
 "touch" - создание пустого файла.
 </p>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 3</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 3</li>
 <li>
 Запишем в наш файл команды, которые нужны для обновления системы:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">echo 'sudo apt update && sudo apt upgrade -y' > sysup.sh</code><br>
@@ -95,7 +93,7 @@
 "echo" - в данном случае используется для записи строки в файл sysup.sh
 </p>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>>Шаг 4</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 4</li>
 <li>
 Теперь дадим нашему файлу "sysup.sh" права на исполнение:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">chmod +x sysup.sh</code><br>
@@ -103,7 +101,7 @@
 "chmod +x" - позволяет задать параметры запуска файла на исполнение.
 </p>
 </li>
-<li class=malloc-text-blue style=font-size:15px;margin-top:40px>Шаг 5</li>
+<li class=malloc-text-blue style=font-size:15px;margin-top:20px>Шаг 5</li>
 <li>
 Все готово, теперь мы можем запустить файл и он выполнить сразу две команды за раз:<br>
 <code class="malloc-text-teal malloc-border malloc-bar-item">./sysup.sh</code>
@@ -117,9 +115,8 @@
 <div class="malloc-ad-mobile malloc-center">
 <object style=width:250px;height:180px data=https://www.youtube.com/embed/VoYLMjN2WJM></object>
 </div>
-</div>
 <hr>
-<div class="malloc-padding-small malloc-padding-16">
+<div style=margin-top:75px></div>
 <h2 class=malloc-text-teal>Заключение</h2>
 <ul class=malloc-ul>
 <li>
@@ -128,7 +125,6 @@
 Надеюсь, статья была полезной и у вас получилось найти ответы на свои вопросы.
 </li>
 </ul>
-</div>
 </div>
 <div class="malloc-quarter malloc-text-gray malloc-padding-16 malloc-card" title=Новости style=margin-top:90px>
 <div class="malloc-container malloc-text-grey" style=border-radius:5px>
@@ -215,9 +211,6 @@
 </div>
 </li>
 </ul>
-</div>
-<div class="malloc-container malloc-theme-l5 malloc-card malloc-ad-desktop" style=margin-left:270px;border-radius:5px>
-<div class=malloc-center style=font-size:12px title="Все права защищены">&copy; malloc.ru, 2021</div>
 </div>
 <div class="malloc-container malloc-theme-l2 malloc-card-4 malloc-ad-mobile" style=border-radius:5px>
 <div class=malloc-center style=font-size:12px title="Все права защищены">&copy; malloc.ru, 2021</div>
