@@ -1,12 +1,13 @@
-# Для всех поисковых ботов
-User-agent: *
-sitemap: https://malloc.ru/sitemap.xml
+# Для основного индексирующего робота Google
+user-agent: Googlebot
+allow: /
 
 # Для всех роботов Яндекса
-User-agent: Yandex
-Allow: /
-sitemap: https://malloc.ru/sitemap.xml
+user-agent: Yandex
+allow: /
 
-# Для основного индексирующего робота Google
-User-agent: Googlebot
+# Для всех остальных
+user-agent: *
+allow: /
+
 sitemap: https://malloc.ru/sitemap.xml
