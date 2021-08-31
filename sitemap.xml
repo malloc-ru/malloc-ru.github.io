@@ -6,15 +6,15 @@
 </url>
 <url>
 	<loc>https://malloc.ru/blog.html</loc>
-	<priority>0.8</priority>
+	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://malloc.ru/index.html</loc>
-	<priority>0.6</priority>
+	<priority>0.1</priority>
 </url>
 <url>
 	<loc>https://malloc.ru/donat.html</loc>
-	<priority>0.8</priority>
+	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://malloc.ru/content/blog/</loc>
