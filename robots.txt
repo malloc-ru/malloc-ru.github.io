@@ -1,13 +1,8 @@
-# Для основного индексирующего робота Google
-user-agent: Googlebot
-disallow:
+User-agent: *
+Allow: /
 
-# Для всех роботов Яндекса
-user-agent: Yandex
-disallow:
+User-agent: Googlebot
+Allow: /
 
-# Для всех остальных
-user-agent: *
-disallow:
-
-sitemap: https://malloc.ru/sitemap.xml
+User-agent: Yandex
+Allow: /
