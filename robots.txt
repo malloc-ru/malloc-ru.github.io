@@ -1,8 +1,8 @@
 User-agent: *
-Allow: /
+Disallow: https://44mag44.github.io
 
 User-agent: Googlebot
-Allow: /
+Disallow: https://44mag44.github.io
 
 User-agent: Yandex
-Allow: /
+Disallow: https://44mag44.github.io
