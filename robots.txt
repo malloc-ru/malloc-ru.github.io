@@ -1,6 +1,11 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /index.html
+
 User-agent: Googlebot
-Disallow: /
+Allow: /
+Disallow: /index.html
+
 User-agent: Yandex
-Disallow: /
+Allow: /
+Disallow: /index.html
