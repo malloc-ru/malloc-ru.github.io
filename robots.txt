@@ -1,6 +1,6 @@
 User-agent: *
-Disallow: 
+Disallow: /
 User-agent: Googlebot
-Disallow: 
+Disallow: /
 User-agent: Yandex
-Disallow: 
+Disallow: /
