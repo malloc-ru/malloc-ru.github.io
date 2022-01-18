@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<title>Hello World на PHP | Malloc.RU</title>
+	<title>Дистрибутор дохода I | Malloc.RU</title>
 	<meta charset="utf-8" />
-	<meta name="description" content="Решил написать своего домашнего распределителя дохода. Он разбивает доход на четыре части  (для меня это оптимально) и записывает все это в файл. В итоге получаем общий доход, полные суммы распределения и отдельные части распределения. Опишу как работает код и оставлю ссылку на него. Код назходиться на GitHub. Данной статье программа разбивает сумму лишь на один конверт, остальное будет в следующей статье. Подробнее..."/>
+	<meta name="description" content="Решил написать своего домашнего распределителя дохода. Он разбивает доход на четыре части  (для меня это оптимально) и записывает все это в файл. В итоге получаем общий доход, полные суммы распределения и отдельные части распределения. Опишу как работает код и оставлю ссылку на него. Код назходиться на GitHub. В данной статье программа разбивает сумму лишь на один конверт, остальное будет в следующей статье. Подробнее..."/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" href="../../css/style.css">
 	<link type="image/x-icon" rel="shortcut icon" href="../../pictures/favicon/favicon.ico">
@@ -16,7 +16,7 @@
 			<div class="malloc-row malloc-padding-32"><!-- text{ -->
 				<!-- Статья -->
 				<div class="malloc-threequarter malloc-padding"><!-- { -->
-					<h1 class="malloc-center malloc-theme malloc-serif" style="border-radius:5px;">Дистрибутор дохода</h1>
+					<h1 class="malloc-center malloc-theme malloc-serif" style="border-radius:5px;">Дистрибутор дохода I</h1>
 					<!-- Вступление -->
 					<div class="malloc-padding">
 						В данной статье я расскажу и покажу как я написал программу <b>"Дистрибутор дохода"</b> или проще говоря - <b>распределение дохода по конвертам</b>.<br>
@@ -247,7 +247,7 @@
 							Редактируем его:<br>
 							<code class="malloc-text-teal malloc-border malloc-bar-item">#ifndef _INCOME_H_</code><br>	
 							<code class="malloc-text-teal malloc-border malloc-bar-item">#define _INCOME_H_</code><br>
-							<code class="malloc-text-teal malloc-border malloc-bar-item">int income();</code><br>	
+							<code class="malloc-text-teal malloc-border malloc-bar-item">int income(int sum);</code><br>	
 							<code class="malloc-text-teal malloc-border malloc-bar-item">#endif</code><br>
 							Теперь можем включать файл и воспользоваться функцией <b>income()</b><br>
 						</li>	
@@ -494,7 +494,7 @@
 						<li>
 							В заключении этой статьи хочу сказать, что программа не дописана и будет дополнена в следующей части.<br>
 							А в этом коде мы научили программу сохранять введенную информацию в файл и считать процент от суммы.<br><br>
-							Код можете скачать с <a href="https://github.com/code-malloc/distributor_1" target="blank">github.com</a><br><br>
+							Код можете скачать с <b><a id="lang-C" class="malloc-hover-blue" style="border-radius:5px; text-decoration:underline;">github.com</a></b></a><br><br>
 							Статья получилась громозкой, но я думаю, что у вас не возникнет ни каких проблем.<br>
 							Надеюсь, статья была полезной и получилось найти ответы на свои вопросы.
 						</li>

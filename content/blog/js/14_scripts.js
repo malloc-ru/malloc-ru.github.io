@@ -1,3 +1,8 @@
+document.getElementById('article').onclick=function(){window.open('13-distributor-1.html', '_blank');};
+
+/* GitHub /*/
+document.getElementById('lang-C').onclick=function(){window.open('https://github.com/code-malloc/distributor_2', '_blank');};
+
 /* Footer desktop*/
 document.getElementById('Donat-footer-d').onclick=function(){window.open('https://www.donationalerts.com/c/malloc', '_blank');};
 document.getElementById('Telegram-footer-d').onclick=function(){window.open('https://msngr.link/tg/malloc_ru', '_blank');};
@@ -16,11 +21,9 @@ document.getElementById('Payeer-footer-m').onclick=function(){window.open('https
 
 /* Payeer AD */
 document.getElementById('AD-payeer').onclick=function(){window.open('https://payeer.com/04184305', '_blank');};
-
-/* GitHub /*/
-document.getElementById('lang-C').onclick=function(){window.open('https://github.com/code-malloc/distributor_1', '_blank');};
-
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
 /* sidebar */
 var mySidebar = document.getElementById("mySidebar");
 var overlayBg = document.getElementById("myOverlay");
