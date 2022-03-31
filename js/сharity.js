@@ -17,13 +17,6 @@ document.getElementById('GitHub-footer-m').onclick=function(){window.open('https
 document.getElementById('Topmail-footer-m').onclick=function(){window.open('https://top.mail.ru/jump?from=3211268', '_blank');};
 document.getElementById('Payeer-footer-m').onclick=function(){window.open('https://payeer.com/04184305', '_blank');};
 
-/* Payeer AD */
-document.getElementById('AD-payeer').onclick=function(){window.open('https://payeer.com/04184305', '_blank');};
-
-/*GitHub*/
-document.getElementById('C').onclick=function(){window.open('https://github.com/code-malloc/7-file-1', '_blank');};
-document.getElementById('CPP').onclick=function(){window.open('https://github.com/code-malloc/7-file-2', '_blank');};
-
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* sidebar */
 var mySidebar = document.getElementById("mySidebar");
@@ -41,8 +34,6 @@ function date()
 	return " " +day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()] + " " + d.getFullYear() + " ";
 }
 setInterval(function () {document.getElementById('mydate').innerHTML = date();}, 0);
-
-/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* time */		
 function zero_first_format(value)		
 {
@@ -61,3 +52,15 @@ function time()
 	return " "+hours+":"+minutes+":"+seconds+" ";
 };
 setInterval(function () {document.getElementById('mytime').innerHTML = time();});
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+// Rating Mail.ru counter
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "3211268", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = "https://top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");

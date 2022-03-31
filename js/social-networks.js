@@ -1,3 +1,13 @@
+/* Ссылка malloc.ru */
+document.getElementById('malloc.ru').onclick=function(){window.open('https://malloc.ru', '_self');};
+
+/* Cоцсети */
+document.getElementById('Telegram').onclick=function(){window.open('https://msngr.link/tg/malloc_ru', '_blank');};
+document.getElementById('Youtube').onclick=function(){window.open('https://www.youtube.com/channel/UCIAboMgPOBcFR9Y5GoUdoTw', '_blank');};
+document.getElementById('GitHub').onclick=function(){window.open('https://github.com/code-malloc', '_blank');};
+
+
+
 /* Footer desktop*/
 document.getElementById('Donat-footer-d').onclick=function(){window.open('https://www.donationalerts.com/c/malloc', '_blank');};
 document.getElementById('Telegram-footer-d').onclick=function(){window.open('https://msngr.link/tg/malloc_ru', '_blank');};
@@ -13,6 +23,10 @@ document.getElementById('Youtube-footer-m').onclick=function(){window.open('http
 document.getElementById('GitHub-footer-m').onclick=function(){window.open('https://github.com/code-malloc', '_blank');};
 document.getElementById('Topmail-footer-m').onclick=function(){window.open('https://top.mail.ru/jump?from=3211268', '_blank');};
 document.getElementById('Payeer-footer-m').onclick=function(){window.open('https://payeer.com/04184305', '_blank');};
+/* null */
+/* 	document.getElementById('#null').onclick=function(){window.open('null', '_blank');};
+*/
+
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* sidebar */
 var mySidebar = document.getElementById("mySidebar");
@@ -30,6 +44,8 @@ function date()
 	return " " +day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()] + " " + d.getFullYear() + " ";
 }
 setInterval(function () {document.getElementById('mydate').innerHTML = date();}, 0);
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* time */		
 function zero_first_format(value)		
 {
@@ -50,7 +66,7 @@ function time()
 setInterval(function () {document.getElementById('mytime').innerHTML = time();});
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-// Rating Mail.ru counter
+/* Rating Mail.ru counter */
 var _tmr = window._tmr || (window._tmr = []);
 _tmr.push({id: "3211268", type: "pageView", start: (new Date()).getTime()});
 (function (d, w, id) {
@@ -60,3 +76,8 @@ _tmr.push({id: "3211268", type: "pageView", start: (new Date()).getTime()});
   var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
   if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
 })(document, window, "topmailru-code");
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Редирект - перенаправление на страницу malloc.ru/index.html */
+//	location.replace("https://malloc.ru");
+//	document.location.replace("https://malloc.ru");
